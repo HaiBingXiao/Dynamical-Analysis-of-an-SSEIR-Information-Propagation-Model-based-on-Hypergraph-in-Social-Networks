@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="720pt"
+   height="432pt"
+   viewBox="0 0 720 432"
+   version="1.1"
+   id="svg25"
+   sodipodi:docname="SIR_SEIR_SSEIR.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview25"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="1.2489583"
+     inkscape:cx="480"
+     inkscape:cy="287.83987"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg25" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:date>2024-10-19T09:31:15.642635</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1">
+    <style
+       type="text/css"
+       id="style1">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  </defs>
+  <g
+     id="figure_1"
+     inkscape:export-filename="..\..\figure10.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <g
+       id="patch_1">
+      <path
+         d="M 0 432  L 720 432  L 720 0  L 0 0  z "
+         style="fill: #ffffff"
+         id="path1" />
+    </g>
+    <g
+       id="axes_1">
+      <g
+         id="patch_2">
+        <path
+           d="M 90 384.48  L 648 384.48  L 648 51.84  L 90 51.84  z "
+           style="fill: #ffffff"
+           id="path2" />
+      </g>
+      <g
+         id="matplotlib.axis_1">
+        <g
+           id="xtick_1">
+          <g
+             id="line2d_1">
+            <defs
+               id="defs2">
+              <path
+                 id="m24b81b6808"
+                 d="M 0 0  L 0 3.5  "
+                 style="stroke: #000000; stroke-width: 0.8" />
+            </defs>
+            <g
+               id="g2">
+              <use
+                 xlink:href="#m24b81b6808"
+                 x="114.347058"
+                 y="384.48"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use2" />
+            </g>
+          </g>
+          <g
+             id="text_1">
+            <text
+               style="text-anchor:middle;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="114.347058"
+               y="405.3675"
+               transform="rotate(-0 114.347058 405.3675)"
+               id="text2">0</text>
+          </g>
+        </g>
+        <g
+           id="xtick_2">
+          <g
+             id="line2d_2">
+            <g
+               id="g3">
+              <use
+                 xlink:href="#m24b81b6808"
+                 x="216.004919"
+                 y="384.48"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use3" />
+            </g>
+          </g>
+          <g
+             id="text_2">
+            <text
+               style="text-anchor:middle;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="216.004919"
+               y="405.3675"
+               transform="rotate(-0 216.004919 405.3675)"
+               id="text3">100</text>
+          </g>
+        </g>
+        <g
+           id="xtick_3">
+          <g
+             id="line2d_3">
+            <g
+               id="g4">
+              <use
+                 xlink:href="#m24b81b6808"
+                 x="317.66278"
+                 y="384.48"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use4" />
+            </g>
+          </g>
+          <g
+             id="text_3">
+            <text
+               style="text-anchor:middle;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="317.66278"
+               y="405.3675"
+               transform="rotate(-0 317.66278 405.3675)"
+               id="text4">200</text>
+          </g>
+        </g>
+        <g
+           id="xtick_4">
+          <g
+             id="line2d_4">
+            <g
+               id="g5">
+              <use
+                 xlink:href="#m24b81b6808"
+                 x="419.320641"
+                 y="384.48"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use5" />
+            </g>
+          </g>
+          <g
+             id="text_4">
+            <text
+               style="text-anchor:middle;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="419.320641"
+               y="405.3675"
+               transform="rotate(-0 419.320641 405.3675)"
+               id="text5">300</text>
+          </g>
+        </g>
+        <g
+           id="xtick_5">
+          <g
+             id="line2d_5">
+            <g
+               id="g6">
+              <use
+                 xlink:href="#m24b81b6808"
+                 x="520.978502"
+                 y="384.48"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use6" />
+            </g>
+          </g>
+          <g
+             id="text_5">
+            <text
+               style="text-anchor:middle;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="520.978502"
+               y="405.3675"
+               transform="rotate(-0 520.978502 405.3675)"
+               id="text6">400</text>
+          </g>
+        </g>
+        <g
+           id="xtick_6">
+          <g
+             id="line2d_6">
+            <g
+               id="g7">
+              <use
+                 xlink:href="#m24b81b6808"
+                 x="622.636364"
+                 y="384.48"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use7" />
+            </g>
+          </g>
+          <g
+             id="text_6">
+            <text
+               style="text-anchor:middle;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="622.636364"
+               y="405.3675"
+               transform="rotate(-0 622.636364 405.3675)"
+               id="text7">500</text>
+          </g>
+        </g>
+        <g
+           id="text_7">
+          <text
+             style="text-anchor:middle;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             x="369"
+             y="427.533125"
+             transform="rotate(-0 369 427.533125)"
+             id="text8">Time (t)</text>
+        </g>
+      </g>
+      <g
+         id="matplotlib.axis_2">
+        <g
+           id="ytick_1">
+          <g
+             id="line2d_7">
+            <defs
+               id="defs8">
+              <path
+                 id="m39576a4a17"
+                 d="M 0 0  L -3.5 0  "
+                 style="stroke: #000000; stroke-width: 0.8" />
+            </defs>
+            <g
+               id="g8">
+              <use
+                 xlink:href="#m39576a4a17"
+                 x="90"
+                 y="369.679238"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use8" />
+            </g>
+          </g>
+          <g
+             id="text_8">
+            <text
+               style="text-anchor:end;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="83"
+               y="376.622988"
+               transform="rotate(-0 83 376.622988)"
+               id="text9">0.0</text>
+          </g>
+        </g>
+        <g
+           id="ytick_2">
+          <g
+             id="line2d_8">
+            <g
+               id="g9">
+              <use
+                 xlink:href="#m39576a4a17"
+                 x="90"
+                 y="306.8132"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use9" />
+            </g>
+          </g>
+          <g
+             id="text_9">
+            <text
+               style="text-anchor:end;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="83"
+               y="313.75695"
+               transform="rotate(-0 83 313.75695)"
+               id="text10">0.2</text>
+          </g>
+        </g>
+        <g
+           id="ytick_3">
+          <g
+             id="line2d_9">
+            <g
+               id="g10">
+              <use
+                 xlink:href="#m39576a4a17"
+                 x="90"
+                 y="243.947161"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use10" />
+            </g>
+          </g>
+          <g
+             id="text_10">
+            <text
+               style="text-anchor:end;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="83"
+               y="250.890911"
+               transform="rotate(-0 83 250.890911)"
+               id="text11">0.4</text>
+          </g>
+        </g>
+        <g
+           id="ytick_4">
+          <g
+             id="line2d_10">
+            <g
+               id="g11">
+              <use
+                 xlink:href="#m39576a4a17"
+                 x="90"
+                 y="181.081123"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use11" />
+            </g>
+          </g>
+          <g
+             id="text_11">
+            <text
+               style="text-anchor:end;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="83"
+               y="188.024873"
+               transform="rotate(-0 83 188.024873)"
+               id="text12">0.6</text>
+          </g>
+        </g>
+        <g
+           id="ytick_5">
+          <g
+             id="line2d_11">
+            <g
+               id="g12">
+              <use
+                 xlink:href="#m39576a4a17"
+                 x="90"
+                 y="118.215085"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use12" />
+            </g>
+          </g>
+          <g
+             id="text_12">
+            <text
+               style="text-anchor:end;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="83"
+               y="125.158835"
+               transform="rotate(-0 83 125.158835)"
+               id="text13">0.8</text>
+          </g>
+        </g>
+        <g
+           id="ytick_6">
+          <g
+             id="line2d_12">
+            <g
+               id="g13">
+              <use
+                 xlink:href="#m39576a4a17"
+                 x="90"
+                 y="55.349046"
+                 style="stroke: #000000; stroke-width: 0.8"
+                 id="use13" />
+            </g>
+          </g>
+          <g
+             id="text_13">
+            <text
+               style="text-anchor:end;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+               x="83"
+               y="62.292796"
+               transform="rotate(-0 83 62.292796)"
+               id="text14">1.0</text>
+          </g>
+        </g>
+        <g
+           id="text_14">
+          <text
+             style="text-anchor:middle;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             x="49.684375"
+             y="218.16"
+             transform="rotate(-90 49.684375 218.16)"
+             id="text15">Density</text>
+        </g>
+      </g>
+      <g
+         id="line2d_13">
+        <path
+           d="M 115.363636 366.371484  L 116.380215 363.889562  L 117.396794 359.581034  L 118.413372 352.174214  L 119.429951 339.656547  L 120.446529 319.120894  L 121.463108 287.118257  L 122.479687 241.428407  L 124.512844 129.895708  L 125.529422 91.57053  L 126.546001 74.514278  L 127.56258 70.255841  L 128.579158 70.650635  L 129.595737 72.355487  L 133.662051 80.745899  L 139.761523 93.125914  L 145.860995 104.976397  L 151.960466 116.31908  L 158.059938 127.175721  L 164.15941 137.567149  L 170.258881 147.513297  L 176.358353 157.033247  L 182.457825 166.145261  L 188.557296 174.86682  L 194.656768 183.214654  L 200.75624 191.204778  L 206.855711 198.852521  L 212.955183 206.172553  L 219.054655 213.178917  L 225.154126 219.885053  L 231.253598 226.303828  L 238.369648 233.445603  L 245.485699 240.231634  L 252.601749 246.679641  L 259.717799 252.806461  L 266.83385 258.628095  L 273.9499 264.159742  L 281.06595 269.415849  L 288.182 274.41014  L 295.298051 279.155657  L 303.43068 284.290352  L 311.563308 289.133795  L 319.695937 293.702507  L 327.828566 298.012073  L 335.961195 302.07719  L 344.093824 305.911725  L 353.243032 309.966215  L 362.392239 313.762911  L 371.541447 317.318204  L 380.690654 320.647443  L 390.85644 324.098923  L 401.022226 327.307443  L 411.188012 330.290108  L 422.370377 333.329116  L 433.552742 336.133654  L 444.735107 338.721812  L 456.93405 341.318059  L 469.132993 343.696571  L 482.348515 346.048727  L 496.580616 348.344247  L 510.812716 350.416776  L 526.061396 352.414456  L 542.326653 354.3175  L 559.60849 356.110184  L 577.906905 357.780834  L 597.221898 359.321669  L 618.570049 360.793636  L 622.636364 361.04932  L 622.636364 361.04932  "
+           clip-path="url(#p13f0601acb)"
+           style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #0000ff; stroke-width: 1.5"
+           id="path15" />
+      </g>
+      <g
+         id="line2d_14">
+        <path
+           d="M 115.363636 366.287044  L 119.429951 360.251538  L 121.463108 356.969804  L 123.496265 353.327788  L 125.529422 349.18912  L 127.56258 344.414132  L 129.595737 338.857834  L 131.628894 332.369805  L 133.662051 324.796387  L 135.695209 315.985767  L 137.728366 305.79658  L 139.761523 294.110629  L 141.79468 280.849984  L 143.827837 265.998032  L 145.860995 249.622904  L 148.910731 222.621911  L 158.059938 137.613126  L 160.093095 121.637973  L 162.126253 107.875634  L 164.15941 96.58759  L 165.175988 91.895387  L 166.192567 87.824795  L 167.209146 84.351975  L 168.225724 81.443847  L 169.242303 79.060152  L 170.258881 77.155637  L 171.27546 75.682192  L 172.292039 74.590835  L 173.308617 73.833426  L 174.325196 73.364064  L 175.341774 73.140128  L 176.358353 73.122971  L 177.374932 73.278297  L 178.39151 73.576269  L 180.424668 74.502263  L 182.457825 75.743633  L 185.507561 77.977782  L 189.573875 81.366169  L 194.656768 85.992273  L 199.739661 90.922125  L 205.839133 97.151369  L 212.955183 104.758186  L 221.087812 113.779772  L 232.270177 126.539389  L 266.83385 166.232778  L 278.016214 178.605425  L 288.182 189.505402  L 297.331208 198.992014  L 306.480415 208.147189  L 314.613044 215.993454  L 322.745673 223.557411  L 330.878302 230.834948  L 339.010931 237.824677  L 347.14356 244.527466  L 355.276189 250.946048  L 363.408818 257.084674  L 371.541447 262.948823  L 379.674075 268.544948  L 387.806704 273.880263  L 395.939333 278.962562  L 404.071962 283.800061  L 412.204591 288.40127  L 421.353799 293.306015  L 430.503006 297.93521  L 439.652214 302.301367  L 448.801421 306.41689  L 457.950629 310.293993  L 467.099836 313.944626  L 477.265622 317.749411  L 487.431408 321.304393  L 497.597194 324.624417  L 507.762981 327.723695  L 518.945345 330.894114  L 530.12771 333.830978  L 541.310075 336.550471  L 553.509018 339.287165  L 565.707961 341.801827  L 578.923483 344.295497  L 592.139005 346.569214  L 606.371106 348.793373  L 621.619785 350.941932  L 622.636364 351.077129  L 622.636364 351.077129  "
+           clip-path="url(#p13f0601acb)"
+           style="fill: none; stroke: #ff0000; stroke-width: 1.5; stroke-linecap: square"
+           id="path16" />
+      </g>
+      <g
+         id="line2d_15">
+        <path
+           d="M 115.363636 364.020866  L 116.380215 358.161216  L 117.396794 349.061879  L 118.413372 335.090654  L 119.429951 314.159937  L 120.446529 284.115976  L 121.463108 243.870467  L 123.496265 145.688671  L 124.512844 104.807447  L 125.529422 79.694507  L 126.546001 69.075118  L 127.56258 66.96  L 128.579158 68.4694  L 129.595737 71.246546  L 133.662051 84.250973  L 139.761523 103.408968  L 144.844416 118.677319  L 149.927309 133.295454  L 155.010202 147.257491  L 160.093095 160.56423  L 165.175988 173.221926  L 170.258881 185.241234  L 175.341774 196.636312  L 180.424668 207.424061  L 185.507561 217.623479  L 190.590454 227.255112  L 195.673347 236.340596  L 200.75624 244.902274  L 205.839133 252.962875  L 210.922026 260.545248  L 216.004919 267.672146  L 221.087812 274.366048  L 226.170705 280.649021  L 231.253598 286.542599  L 236.336491 292.067706  L 241.419384 297.244581  L 246.502277 302.092735  L 251.58517 306.630917  L 256.668063 310.87709  L 261.750956 314.848426  L 266.83385 318.561302  L 271.916743 322.031305  L 278.016214 325.895513  L 284.115686 329.455413  L 290.215158 332.73362  L 296.314629 335.751273  L 302.414101 338.528104  L 308.513573 341.082494  L 315.629623 343.804232  L 322.745673 346.271536  L 329.861723 348.50741  L 337.994352 350.806244  L 346.126981 352.858814  L 354.25961 354.690866  L 363.408818 356.517102  L 372.558025 358.122997  L 382.723811 359.680578  L 393.906176 361.154398  L 406.105119 362.517205  L 419.320641 363.750241  L 433.552742 364.842942  L 448.801421 365.792138  L 466.083257 366.645471  L 486.41483 367.413418  L 509.796138 368.059929  L 537.24376 368.587976  L 571.807433 369.015583  L 616.536892 369.330689  L 622.636364 369.36  L 622.636364 369.36  "
+           clip-path="url(#p13f0601acb)"
+           style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #008000; stroke-width: 1.5"
+           id="path17" />
+      </g>
+      <g
+         id="patch_3">
+        <path
+           d="M 90 384.48  L 90 51.84  "
+           style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"
+           id="path18" />
+      </g>
+      <g
+         id="patch_4">
+        <path
+           d="M 648 384.48  L 648 51.84  "
+           style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"
+           id="path19" />
+      </g>
+      <g
+         id="patch_5">
+        <path
+           d="M 90 384.48  L 648 384.48  "
+           style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"
+           id="path20" />
+      </g>
+      <g
+         id="patch_6">
+        <path
+           d="M 90 51.84  L 648 51.84  "
+           style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"
+           id="path21" />
+      </g>
+      <g
+         id="legend_1">
+        <g
+           id="patch_7">
+          <path
+             d="M 515.540625 152.674375  L 634 152.674375  Q 638 152.674375 638 148.674375  L 638 65.84  Q 638 61.84 634 61.84  L 515.540625 61.84  Q 511.540625 61.84 511.540625 65.84  L 511.540625 148.674375  Q 511.540625 152.674375 515.540625 152.674375  z "
+             style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"
+             id="path22" />
+        </g>
+        <g
+           id="line2d_16">
+          <path
+             d="M 519.540625 76.84  L 539.540625 76.84  L 559.540625 76.84  "
+             style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #0000ff; stroke-width: 1.5"
+             id="path23" />
+        </g>
+        <g
+           id="text_15">
+          <text
+             style="text-anchor:start;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             x="575.540625"
+             y="83.84"
+             transform="rotate(-0 575.540625 83.84)"
+             id="text23">SIR</text>
+        </g>
+        <g
+           id="line2d_17">
+          <path
+             d="M 519.540625 105.118125  L 539.540625 105.118125  L 559.540625 105.118125  "
+             style="fill: none; stroke: #ff0000; stroke-width: 1.5; stroke-linecap: square"
+             id="path24" />
+        </g>
+        <g
+           id="text_16">
+          <text
+             style="text-anchor:start;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             x="575.540625"
+             y="112.118125"
+             transform="rotate(-0 575.540625 112.118125)"
+             id="text24">SEIR</text>
+        </g>
+        <g
+           id="line2d_18">
+          <path
+             d="M 519.540625 133.39625  L 539.540625 133.39625  L 559.540625 133.39625  "
+             style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #008000; stroke-width: 1.5"
+             id="path25" />
+        </g>
+        <g
+           id="text_17">
+          <text
+             style="text-anchor:start;-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999952px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             x="575.540625"
+             y="140.39625"
+             transform="rotate(-0 575.540625 140.39625)"
+             id="text25">SSEIR</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs
+     id="defs25">
+    <clipPath
+       id="p13f0601acb">
+      <rect
+         x="90"
+         y="51.84"
+         width="558"
+         height="332.64"
+         id="rect25" />
+    </clipPath>
+  </defs>
+</svg>

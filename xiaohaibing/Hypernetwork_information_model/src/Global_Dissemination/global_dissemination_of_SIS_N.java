@@ -1,0 +1,126 @@
+package Global_Dissemination;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class global_dissemination_of_SIS_N {
+    public static void main(String[] args) {
+        double b = 0.3;
+        double y = 0.06;
+        int n1000;
+        int n5000;
+        int n10000;
+        double[][] matrix_AdjacencyMatrix1000;
+        double[][] matrix_AdjacencyMatrix5000;
+        double[][] matrix_AdjacencyMatrix10000;
+        try {
+            matrix_AdjacencyMatrix1000 = readMatrixFromFile("D:\\桌面\\Hypernetwork_information_model\\output\\Hypernetwork_43_AdjacencyMatrix_1000.txt");
+            n1000 = matrix_AdjacencyMatrix1000.length;
+
+            matrix_AdjacencyMatrix5000 = readMatrixFromFile("D:\\桌面\\Hypernetwork_information_model\\output\\Hypernetwork_43_AdjacencyMatrix_5000.txt");
+            n5000 = matrix_AdjacencyMatrix5000.length;
+
+            matrix_AdjacencyMatrix10000 = readMatrixFromFile("D:\\桌面\\Hypernetwork_information_model\\output\\Hypernetwork_43_AdjacencyMatrix_10000.txt");
+            n10000 = matrix_AdjacencyMatrix10000.length;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return;
+        }
+
+        for (int p = 0; p < 3; p++) {
+            int n = 0;
+            double[][] matrix = {{}, {}};
+            if (p == 0) {
+                n = n1000;
+                matrix = matrix_AdjacencyMatrix1000;
+            }
+            if (p == 1) {
+                n = n5000;
+                matrix = matrix_AdjacencyMatrix5000;
+            }
+            if (p == 2) {
+                n = n10000;
+                matrix = matrix_AdjacencyMatrix10000;
+            }
+            Random random = new Random();
+            int index = random.nextInt(n); // 随机选择一个初始节点为I状态
+            int[][] state = new int[n][2]; // 记录节点状态
+            for (int i = 0; i < n; i++) { // 初始化节点状态
+                state[i][0] = i;
+                state[i][1] = 0; // 0表示为S状态
+                if (i == index) {
+                    state[i][1] = 1;
+                }
+            }
+            double st = n - 1;
+            double it = 1;
+
+            try (FileWriter writer = new FileWriter("D:\\桌面\\Hypernetwork_information_model\\output\\global_dissemination_of_SIS_Hypernetwork_N"+n+".txt")) {
+                for (int k = 1; k <= 40; k++) { // 演化40步
+                    double xx = st / n; // st状态节点在k时刻占所有节点的比例
+                    double yy = it / n; // it状态节点在k时刻占所有节点的比例
+                    writer.write(k + "," + yy + "\n");
+
+                    int[] newInfections = new int[n];
+                    int[] recoveries = new int[n];
+
+                    for (int i = 0; i < n; i++) { // 遍历每个节点
+                        if (state[i][1] == 1) {
+                            // 处理恢复
+                            if (random.nextDouble() < y) {
+                                recoveries[i] = 1;
+                            }
+                            // 处理新感染
+                            for (int j = 0; j < n; j++) { // 寻找第i个节点的邻居节点
+                                if (matrix[i][j] == 1 && state[j][1] == 0 && random.nextDouble() < b) {
+                                    newInfections[j] = 1;
+                                }
+                            }
+                        }
+                    }
+
+                    // 更新节点状态和统计数
+                    for (int i = 0; i < n; i++) {
+                        if (newInfections[i] == 1) {
+                            state[i][1] = 1;
+                            it++;
+                            st--;
+                        }
+                        if (recoveries[i] == 1) {
+                            state[i][1] = 0;
+                            it--;
+                            st++;
+                        }
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static double[][] readMatrixFromFile(String filename) throws IOException {
+        List<double[]> matrixList = new ArrayList<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] values = line.trim().split("\\s+");
+                double[] row = new double[values.length];
+                for (int i = 0; i < values.length; i++) {
+                    row[i] = Double.parseDouble(values[i]);
+                }
+                matrixList.add(row);
+            }
+        }
+        double[][] matrix = new double[matrixList.size()][];
+        for (int i = 0; i < matrixList.size(); i++) {
+            matrix[i] = matrixList.get(i);
+        }
+        return matrix;
+    }
+}
